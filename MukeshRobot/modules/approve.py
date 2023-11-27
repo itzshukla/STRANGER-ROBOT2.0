@@ -152,12 +152,12 @@ def unapproveall(update: Update, context: CallbackContext):
             [
                 [
                     InlineKeyboardButton(
-                        text="📍Unapprove all users📍", callback_data="unapproveall_user"
+                        text="✯Unapprove all users✯", callback_data="unapproveall_user"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        text="📍Cancel📍", callback_data="unapproveall_cancel"
+                        text="✯Cancel✯", callback_data="unapproveall_cancel"
                     )
                 ],
             ]
@@ -183,18 +183,18 @@ def unapproveall_btn(update: Update, context: CallbackContext):
                 sql.disapprove(chat.id, user_id)
 
         if member.status == "administrator":
-            query.answer("Only owner of the chat can do this.📍")
+            query.answer("Only owner of the chat can do this.✯")
 
         if member.status == "member":
-            query.answer("You need to be admin to do this.📍")
+            query.answer("You need to be admin to do this.✯")
     elif query.data == "unapproveall_cancel":
         if member.status == "creator" or query.from_user.id in DRAGONS:
-            message.edit_text("Removing of all approved users has been cancelled.📍")
+            message.edit_text("Removing of all approved users has been cancelled.✯")
             return ""
         if member.status == "administrator":
-            query.answer("Only owner of the chat can do this.📍")
+            query.answer("Only owner of the chat can do this.✯")
         if member.status == "member":
-            query.answer("You need to be admin to do this.📍")
+            query.answer("You need to be admin to do this.✯")
 
 
 __help__ = """
@@ -210,7 +210,7 @@ sᴏᴍᴇᴛɪᴍᴇs, ʏᴏᴜ ᴍɪɢʜᴛ ᴛʀᴜsᴛ ᴀ ᴜsᴇʀ ɴᴏ�
 ❍ /approved *:* ʟɪsᴛ ᴀʟʟ ᴀᴘᴘʀᴏᴠᴇᴅ ᴜsᴇʀs.
 ❍ /unapproveall *:* ᴜɴᴀᴘᴘʀᴏᴠᴇ *ᴀʟʟ* ᴜsᴇʀs ɪɴ ᴀ ᴄʜᴀᴛ. ᴛʜɪs ᴄᴀɴɴᴏᴛ ʙᴇ ᴜɴᴅᴏɴᴇ.
 
-☆............𝙱𝚈 » [𝚅𝙸𝙿 𝙱𝙾𝚈](https://t.me/the_vip_boy)............☆
+☆............𝙱𝚈 » [𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥](https://t.me/ITSZ_SHIVANSH)............☆
 """
 
 APPROVE = DisableAbleCommandHandler("approve", approve)
@@ -227,6 +227,6 @@ dispatcher.add_handler(APPROVAL)
 dispatcher.add_handler(UNAPPROVEALL)
 dispatcher.add_handler(UNAPPROVEALL_BTN)
 
-__mod_name__ = "♨️Aᴘᴘʀᴏᴠᴇ♨️"
+__mod_name__ = "✯Aᴘᴘʀᴏᴠᴇ✯"
 __command_list__ = ["approve", "unapprove", "approved", "approval"]
 __handlers__ = [APPROVE, DISAPPROVE, APPROVED, APPROVAL]
