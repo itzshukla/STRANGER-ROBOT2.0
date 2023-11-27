@@ -99,7 +99,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="✯𝐆𝐑𝐎𝐔𝐏✯", url=f"https://t.me/{SUPPORT_CHAT}"),
-        InlineKeyboardButton(text="✯𝐎𝐅𝐅𝐈𝐂𝐄✯", url=f"https://t.me/VIP_CREATORS"),
+        InlineKeyboardButton(text="✯𝐎𝐅𝐅𝐈𝐂𝐄✯", url=f"https://t.me/ABOUT_SHIVANSHOP"),
     ],
     [
         InlineKeyboardButton(text="✯𝐒𝐎𝐔𝐑𝐂𝐄✯", callback_data="mukesh_"),
