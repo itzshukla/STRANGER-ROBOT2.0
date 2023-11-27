@@ -418,10 +418,10 @@ __help__ = """
  `3ᴅ` = 3 ᴅᴀʏs
  `1ᴡ` = 1 ᴡᴇᴇᴋ
 
-☆............𝙱𝚈 » [𝚅𝙸𝙿 𝙱𝙾𝚈](https://t.me/the_vip_boy)............☆
+☆............𝙱𝚈 » [𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥](https://t.me/ITSZ_SHIVANSH)............☆
  """
 
-__mod_name__ = "♨️ꜰʟᴏᴏᴅ♨️"
+__mod_name__ = "✯ꜰʟᴏᴏᴅ✯"
 
 FLOOD_BAN_HANDLER = MessageHandler(
     Filters.all & ~Filters.status_update & Filters.group, check_flood
