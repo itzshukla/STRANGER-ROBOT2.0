@@ -103,12 +103,12 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="✯𝗦𝗔𝗬𝗔𝗥𝗜✯",
-"""❍ /sspam <number> - Get random Shayari.
+"❍ /sspam <number> - Get random Shayari.
 ❍ /joke <number> - Get random jokes.
 ❍ /gana <song_name> - Get lyrics for a specific song.
 ❍ /mspam <number> - Spam love Shayari or proposal type Shayari.
 ❍ /dialogue <number> - Get random dialogue
-❍ /sapprove - for approved"""),
+❍ /sapprove - for approved"),
     [
         InlineKeyboardButton(text="✯𝐒𝐎𝐔𝐑𝐂𝐄✯", callback_data="mukesh_"),
     ],
