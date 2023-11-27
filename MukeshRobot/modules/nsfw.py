@@ -798,7 +798,7 @@ __handlers__ = [
     BAKA_HANDLER,
     DVA_HANDLER,
 ]
-__mod_name__ = "⚡ɴsғᴡ⚡"
+__mod_name__ = "✯ɴsғᴡ✯"
 
 __help__ = """
 *ɴsғᴡ:*
@@ -858,4 +858,4 @@ __help__ = """
 ❂ /dva : sᴇɴᴅs ʀᴀɴᴅᴏᴍ ᴅ.ᴠᴀ sᴏᴜʀᴄᴇ ɪᴍᴀɢᴇs.
 
 
-☆............𝙱𝚈 » [𝚅𝙸𝙿 𝙱𝙾𝚈](https://t.me/the_vip_boy)............☆"""
+☆............𝙱𝚈 » [𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥](https://t.me/ITSZ_SHIVANSH)............☆"""
