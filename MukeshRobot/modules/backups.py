@@ -368,7 +368,7 @@ def get_chat(chat_id, chat_data):
         return {"status": False, "value": False}
 
 
-__mod_name__ = "♨️Bᴀᴄᴋᴜᴘ♨️"
+__mod_name__ = "✯Bᴀᴄᴋᴜᴘ✯"
 
 __help__ = """
 *ᴏɴʟʏ ғᴏʀ ɢʀᴏᴜᴘ ᴏᴡɴᴇʀ:*
@@ -378,7 +378,7 @@ __help__ = """
 
  ❍ /ᴇxᴘᴏʀᴛ: ᴇxᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴅᴀᴛᴀ, ᴡʜɪᴄʜ ᴡɪʟʟ ʙᴇ ᴇxᴘᴏʀᴛᴇᴅ ᴀʀᴇ: ʀᴜʟᴇs, ɴᴏᴛᴇs (ᴅᴏᴄᴜᴍᴇɴᴛs, ɪᴍᴀɢᴇs, ᴍᴜsɪᴄ, ᴠɪᴅᴇᴏ, ᴀᴜᴅɪᴏ, ᴠᴏɪᴄᴇ, ᴛᴇxᴛ, ᴛᴇxᴛ ʙᴜᴛᴛᴏɴs) \
 
-☆............𝙱𝚈 » [𝚅𝙸𝙿 𝙱𝙾𝚈](https://t.me/the_vip_boy)............☆
+☆............𝙱𝚈 » [𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥](https://t.me/ITSZ_SHIVANSH)............☆
 """
 
 IMPORT_HANDLER = CommandHandler("import", import_data)
