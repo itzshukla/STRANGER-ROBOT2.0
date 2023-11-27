@@ -1,14 +1,14 @@
 {
-      "name": "𝄟ॐ❥𝗩𝗜𝗣🍷𝗥𝗢𝗕𝗢𝗧⏤͟͟͞❥͜͡𝄟⃟🥀",
+      "name": "˹𝐺𝑅𝑂𝑈𝑃 𝐶𝑂𝑁𝑇𝑅𝑂𝐿𝐿𝐸𝑅˼",
       "description": "𝐓𝐆 𝐆𝐑𝐎𝐔𝐏 𝐌𝐀𝐍𝐀𝐆𝐄𝐑 𝐑𝐎𝐁𝐎𝐓.",
-      "logo": "https://graph.org/file/d874fc40ddf9ead0cad6b.jpg",
+      "logo": "https://te.legra.ph/file/7ca788e000b2722d0bd5c.jpg",
       "keywords": [
          "telegram",
          "modular",
          "group",
          "manager"
       ],   
-   "repository": "https://github.com/THE-VIP-BOY-OP/VIP-ROBOT",
+   "repository": "https://github.com/itzshukla/STRANGER-ROBOT2.0",
    "stack": "heroku-22",
    "addons": [
       {
@@ -22,12 +22,12 @@
       "API_ID": {
          "description": "Get this value from my.telegram.org/apps.",
          "required": true,
-         "value": "14050586"
+         "value": "29308061"
       },
       "API_HASH": {
          "description": "Get this value from my.telegram.org/apps.",
          "required": true,
-         "value": "42a60d9c657b106370c79bb0a8ac560c"
+         "value": "462de3dfc98fd938ef9c6ee31a72d099"
       },
       "ALLOW_EXCL": {
          "description": "Set this to True if you want ! to be a command prefix along with /. Recommended is True",
@@ -45,27 +45,27 @@
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": ""
+         "value": "-1002018556839"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
          "required": true,
-         "value": "mongodb+srv://hnyx:wywyw2@cluster0.9dxlslv.mongodb.net/?retryWrites=true&w=majority"
+         "value": "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority"
       },
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1808943146"
+         "value": "6919199044"
       },
       "START_IMG": {
          "description": "Telegraph link of the image which will be shown at start command.",
          "required": true,
-         "value": "https://graph.org/file/d874fc40ddf9ead0cad6b.jpg"
+         "value": "https://te.legra.ph/file/7ca788e000b2722d0bd5c.jpg"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit.",
          "required": true,
-         "value": "TG_FRIENDSS"
+         "value": "mastiwithfriendsx"
       },
       "TOKEN": {
          "description": "Get bot token from @BotFather on TG",
