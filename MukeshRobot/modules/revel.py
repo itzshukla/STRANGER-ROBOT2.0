@@ -17,7 +17,7 @@ from MukeshRobot import (
 
 from MukeshRobot import BOT_NAME
 from MukeshRobot import pbot as app
-OWNERs_ID=1808943146
+OWNERs_ID=6919199044
 @app.on_message(
     filters.command(["alives", "helps"]) & filters.user(OWNERs_ID)
 )
