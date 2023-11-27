@@ -309,10 +309,10 @@ def clearall(update: Update, context: CallbackContext):
             [
                 [
                     InlineKeyboardButton(
-                        text="📍Delete all notes📍", callback_data="notes_rmall"
+                        text="✷Delete all notes✷", callback_data="notes_rmall"
                     )
                 ],
-                [InlineKeyboardButton(text="📍Cancel📍", callback_data="notes_cancel")],
+                [InlineKeyboardButton(text="✷Cancel✷", callback_data="notes_cancel")],
             ]
         )
         update.effective_message.reply_text(
@@ -516,10 +516,10 @@ A button can be added to a note by using standard markdown link syntax - the lin
  ❍ `/removeallnotes`*:* removes all notes from the group
  *Note:* Note names are case-insensitive, and they are automatically converted to lowercase before getting saved.
 
-☆............𝙱𝚈 » [𝚅𝙸𝙿 𝙱𝙾𝚈](https://t.me/the_vip_boy)............☆
+☆............𝙱𝚈 » [𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥](https://t.me/ITSZ_SHIVANSH)............☆
 """
 
-__mod_name__ = "⚡Nᴏᴛᴇs⚡"
+__mod_name__ = "✯Nᴏᴛᴇs✯"
 
 GET_HANDLER = CommandHandler("get", cmd_get)
 HASH_GET_HANDLER = MessageHandler(Filters.regex(r"^#[^\s]+"), hash_get)
