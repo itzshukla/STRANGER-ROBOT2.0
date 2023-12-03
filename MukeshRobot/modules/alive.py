@@ -54,12 +54,18 @@ async def restart(client, m: Message):
     await asyncio.sleep(0.8)
     await m.reply_photo(
         lol,
-        caption=f"""**🌷ʜᴇʏ, ɪ ᴀᴍ 『[˹𝐺𝑅𝑂𝑈𝑃 𝐶𝑂𝑁𝑇𝑅𝑂𝐿𝐿𝐸𝑅˼](f"t.me/{BOT_USERNAME}")』🎄**
-   ╔═════ஜ۩۞۩ஜ════╗
-
-   ❁𝗠𝗔𝗗𝗘 𝗕𝗬 [𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥](https://t.me/ITSZ_SHIVANSH)❁
-
-   ╚═════ஜ۩۞۩ஜ════╝""",
+        caption=f"""**ʜᴇʏ, ɪ ᴀᴍ 『˹ 𝗦𝙴𝙽𝙾𝚁𝙸𝚃𝙰 ✘ 𝗥𝙾𝙱𝙾 ˼』
+   ━━━━━━━━━━━━━━━━━━━
+  » ᴍʏ ᴏᴡɴᴇʀ : [ᴏᴡɴᴇʀ](https://t.me/ITSZ_SHIVANSH)
+  
+  » ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ : 13.15
+  
+  » ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.32.0
+  
+  » ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ : 2.0.106
+  
+  » ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.11.5
+   ━━━━━━━━━━━━━━━━━━━""",
         reply_markup=InlineKeyboardMarkup(Mukesh),
     )
 __mod_name__ = "✯ᴀʟɪᴠᴇ✯"
