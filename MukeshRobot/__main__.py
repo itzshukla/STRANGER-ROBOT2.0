@@ -1103,13 +1103,13 @@ def main():
                 f"@{SUPPORT_CHAT}",
                 animation="https://graph.org/file/aea29f3262dd4cf94f247.mp4",
                 caption=f"""
-{dispatcher.bot.first_name}
-
-╔═════ஜ۩۞۩ஜ═════╗
-
-  💝𝗠𝗔𝗗𝗘 𝗕𝗬 [𝗦𝗛𝗜𝗩𝗔𝗡𝗦𝗛](https://t.me/ITSZ_SHIVANSH)💝
-  
-╚═════ஜ۩۞۩ஜ═════╝
+✨{dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.
+━━━━━━━━━━━━━
+ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ [𝑆𝐻𝐼𝑉𝐴𝑁𝑆𝐻](https://t.me/ABOUT_SHIVANSHOP)ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ: 3.11.5
+ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ: 13.15
+ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ: 1.32.0
+ᴩʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ: 2.0.106
+━━━━━━━━━━━━━
 """,
                 parse_mode=ParseMode.MARKDOWN,
             )
